@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a=36;
+    if(a%2==0)
+    {
+        cout<<"Enter a even\n";
+    }
+    else
+    {
+        cout<<"Enter a odd\n";
+    }
+    return 0;
+}
