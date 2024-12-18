@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+
+{
+    int i;
+    cout<<"Enter your choice\n";
+    cin>>i;
+    switch(i)
+    {
+        case 1:cout<<"s1";
+        break;
+        case 2:cout<<"s2";
+        break;
+        case 3:cout<<"s3";
+        break;
+        case 4:cout<<"s4";
+        break;
+        defoult :cout<<"Reenter no is 1to 4";
+        return 0;
+    }
+}
