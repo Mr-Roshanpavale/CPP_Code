@@ -1,0 +1,21 @@
+#include <iostream>
+  using namespace std;
+int main()
+{
+    int size;
+    int i;
+    cout<<"Enter Size\n";
+    cin>>size;
+    int a[size];
+    for(i=0;i<=size;i++)
+    {
+        cout<<"Enter Element\n";
+        cin>>a[i];
+    }
+    cout<<"Array Element:"<<endl;
+    for(i=0; i<=size; i++)
+    {
+        cout<<"a["<<i<<"]="<<a[i]<<endl;
+    }
+    return 0;
+}
