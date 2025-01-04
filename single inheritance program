@@ -1,0 +1,25 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+class animal
+{
+    public:
+    void bark()
+    {
+        cout<<"bark";
+    }
+};
+class dog:public animal
+{
+    public:
+    void speak()
+    {
+        cout<<"speak";
+    }
+};
+int main()
+{
+    dog obj;
+    obj.bark();
+    obj.speak();
+}
