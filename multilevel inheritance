@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+class techer
+{
+    public:string a;
+   public:
+   void techer1()
+   {
+   cout<<"SET TECHER NAME\n";
+   cin>>a;
+   }
+};
+class student
+{  
+   public: string b;
+    
+    public:
+    void name()
+    {
+        cout<<"set a student  name\n";
+        cin>>b;
+    }
+};
+class Assistant:
+public techer,
+public student
+
+{
+    string c;
+    public:
+    void name2()
+    {
+        cout<<"enter Assistant a name\n";
+        cin>>c;
+    }
+    void display()
+    {
+        cout<<a<<endl;
+        cout<<b<<endl;
+        cout<<c<<endl;
+    }
+    
+};
+int main()
+{
+     Assistant obj;
+    obj.techer1();
+    obj.name();
+    obj.name2();
+    obj.display();
+}
